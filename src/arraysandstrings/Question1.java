@@ -16,11 +16,10 @@ public class Question1 {
 
         for(char c : str.toCharArray()){
 
-            int idx = c-'a';
 
-            if(abc[idx]) return false;
+            if(abc[c]) return false;
 
-            abc[idx] = true;
+            abc[c] = true;
         }
 
         return true;
