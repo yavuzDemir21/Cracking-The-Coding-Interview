@@ -1,5 +1,9 @@
 package arraysandstrings;
 
+/*
+Given two strings,write a method to decide if one is a permutation of the other.
+*/
+
 public class Question2 {
     public static void main(String[] args) {
 
