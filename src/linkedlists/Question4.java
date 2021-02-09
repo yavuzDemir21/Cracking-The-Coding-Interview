@@ -1,6 +1,7 @@
 package linkedlists;
 
-import util.LinkListUtils.ListNode;
+
+import structures.ListNode;
 
 import static util.LinkListUtils.printList;
 

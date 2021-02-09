@@ -3,7 +3,8 @@ package linkedlists;
 Implement an algorithm to find the kth to last element of a singly linked list.
 */
 
-import util.LinkListUtils.ListNode;
+
+import structures.ListNode;
 
 import static util.LinkListUtils.printList;
 

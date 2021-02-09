@@ -5,7 +5,8 @@ FOLLOW UP
 How would you solve this problem if a temporary buffer is not allowed?
 */
 
-import util.LinkListUtils.ListNode;
+import structures.ListNode;
+
 import static util.LinkListUtils.printList;
 
 import java.util.HashSet;

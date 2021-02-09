@@ -4,7 +4,8 @@ Implement an algorithm to delete a node in the middle (i.e., any node but the fi
 exact middle) of a singly linked list, given only access to that node.
 */
 
-import util.LinkListUtils.ListNode;
+
+import structures.ListNode;
 
 import static util.LinkListUtils.printList;
 

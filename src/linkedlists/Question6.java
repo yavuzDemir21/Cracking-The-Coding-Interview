@@ -3,7 +3,7 @@ package linkedlists;
 Implement a function to check if a linked list is a palindrome.
 */
 
-import util.LinkListUtils.ListNode;
+import structures.ListNode;
 
 import java.util.Stack;
 
