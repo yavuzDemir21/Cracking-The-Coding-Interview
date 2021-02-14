@@ -20,7 +20,7 @@ public class Question2 {
 
     }
 
-    private static TreeNode createMinimal(int[] arr){
+    public static TreeNode createMinimal(int[] arr){
         return helper(arr,0,arr.length-1);
     }
 
