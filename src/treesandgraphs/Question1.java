@@ -46,7 +46,7 @@ public class Question1 {
         while (!qu.isEmpty()) {
             GraphNode cur = qu.remove();
 
-            for (GraphNode child : cur.neighbours) {
+            for (GraphNode child : cur.dependencies) {
                 if (!visited.contains(child.val)) {
                     if (child.val == gNode2.val) return true;
                     qu.add(child);

@@ -14,7 +14,7 @@ public class GraphUtils {
             GraphNode node = map.get(i);
             for(int j=0; j<matrix[0].length; j++){
                 if(matrix[i][j])
-                    node.neighbours.add(map.get(j));
+                    node.dependencies.add(map.get(j));
             }
         }
 

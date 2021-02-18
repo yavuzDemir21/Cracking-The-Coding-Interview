@@ -4,9 +4,18 @@ import java.util.ArrayList;
 
 public class GraphNode {
     public int val;
-    public ArrayList<GraphNode> neighbours;
+    public String key;
+    public ArrayList<GraphNode> dependencies;
+    public ArrayList<GraphNode> dependents;
+
     public GraphNode(int val){
         this.val = val;
-        neighbours = new ArrayList<>();
+        dependencies = new ArrayList<>();
+        dependents = new ArrayList<>();
+    }
+    public GraphNode(String key){
+        this.key = key;
+        dependencies = new ArrayList<>();
+        dependents = new ArrayList<>();
     }
 }
